@@ -6,7 +6,7 @@
     "snowflake"
   ],
   "homepage": "http://github.com/KaiGrassnick",
-  "license": "proprietary",
+  "license": "MIT",
   "authors": [
     {
       "name": "Kai Grassnick",
