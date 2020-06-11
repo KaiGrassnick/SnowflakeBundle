@@ -1,0 +1,8 @@
+###> dependencies ###
+/vendor/
+composer.lock
+###< dependencies ###
+
+###> jetbrains/ide ###
+/.idea/
+###< jetbrains/ide ###

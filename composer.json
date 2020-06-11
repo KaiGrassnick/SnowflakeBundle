@@ -1,0 +1,36 @@
+{
+  "name": "kaigrassnick/snowflake-bundle",
+  "type": "symfony-bundle",
+  "description": "This Bundle provides a Snowflake Wrapper for Symfony",
+  "keywords": [
+    "snowflake"
+  ],
+  "homepage": "http://github.com/KaiGrassnick",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Kai Grassnick",
+      "email": "info@kai-grassnick.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "KaiGrassnick\\SnowflakeBundle\\": ""
+    },
+    "exclude-from-classmap": []
+  },
+  "require": {
+    "php": "^7.4",
+    "symfony/framework-bundle": "^5.0",
+    "godruoyi/php-snowflake": "^1.0"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
